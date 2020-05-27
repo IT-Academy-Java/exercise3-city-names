@@ -1,3 +1,5 @@
+package phase1;
+
 import java.util.Scanner;
 
 public class Phase1 {
