@@ -21,11 +21,14 @@ public class Phase2 {
         city5 = inputArray[4];
         city6 = inputArray[5];
 
-        //System.out.println(city1 + " - " + city2 + " - " + city3 + " - " + city4 + " - " + city5 + " - " + city6);
-
         String[] arrayCiutat = inputArray;
+        System.out.println("\n----- ARRAY SIN ORDENAR -----");
+        for (String city : arrayCiutat) {
+            System.out.print(city + ", ");
+        }
+
         Arrays.sort(arrayCiutat);
-        System.out.println("\n----- ARRAY ORDENADO -----");
+        System.out.println("\n\n----- ARRAY ORDENADO -----");
         for (String city : arrayCiutat) {
             System.out.print(city + ", ");
         }
