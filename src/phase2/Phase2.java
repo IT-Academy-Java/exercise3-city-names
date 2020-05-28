@@ -22,13 +22,13 @@ public class Phase2 {
         city6 = inputArray[5];
 
         String[] arrayCiutat = inputArray;
-        System.out.println("\n----- ARRAY SIN ORDENAR -----");
+        System.out.println("\n------ ARRAY SIN ORDENAR ------");
         for (String city : arrayCiutat) {
             System.out.print(city + ", ");
         }
 
         Arrays.sort(arrayCiutat);
-        System.out.println("\n\n----- ARRAY ORDENADO -----");
+        System.out.println("\n\n------ ARRAY ORDENADO ------");
         for (String city : arrayCiutat) {
             System.out.print(city + ", ");
         }
