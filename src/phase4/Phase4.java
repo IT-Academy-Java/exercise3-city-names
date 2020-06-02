@@ -11,7 +11,7 @@ public class Phase4 {
     for (int i = 0; i < inputScannerArray.length; i++) {
       Scanner sc = new Scanner(System.in);
       System.out.print("Write city " + i + ", please: \t");
-      String auxActualInputScanner = sc.next();
+      String auxActualInputScanner = sc.nextLine();
       inputScannerArray[i] = auxActualInputScanner;
     }
 
